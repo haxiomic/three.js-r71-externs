@@ -1,0 +1,11 @@
+{
+  "name": "threejs_r71_externs",
+  "url" : "https://github.com/haxiomic/three.js-r71-externs",
+  "license": "MIT",
+  "tags": ["three.js", "threejs-r71", "threejs externs"],
+  "description": "Curated three.js r71 externs",
+  "version": "1.0.0",
+  "releasenote": "",
+  "contributors": [""],
+  "dependencies": {}
+}
