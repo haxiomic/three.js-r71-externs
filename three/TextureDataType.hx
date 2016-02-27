@@ -2,11 +2,9 @@ package three;
 
 @:native("THREE") extern enum TextureDataType {
 	UnsignedByteType;
-	ByteType;
-	ShortType;
-	UnsignedShortType;
-	IntType;
-	UnsignedIntType;
+	UnsignedShort4444Type;
+	UnsignedShort5551Type;
+	UnsignedShort565Type;
 	FloatType;
 	HalfFloatType;
 }

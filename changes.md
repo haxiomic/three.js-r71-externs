@@ -48,6 +48,17 @@ The follow issues have been corrected in this repository but not in the typescri
 - WebGLRendererParameters
 	missing depth:Bool
 
+- TextureDataType
+	Some of the types listed are invalid for textures
+	It is also missing valid types
+	The correct list is:
+		UnsignedByteType;
+		UnsignedShort4444Type;
+		UnsignedShort5551Type;
+		UnsignedShort565Type;
+		FloatType;
+		HalfFloatType;
+
 - Object3D id should be read-only
 
 -----------------
