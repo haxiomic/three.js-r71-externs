@@ -79,6 +79,8 @@ The follow issues have been corrected in this repository but not in the typescri
 
 - Capitalization of getPRogramInfoLog
 
+- ImageLoader does not cleanup event listeners. This means the image object (and its data) will not get garbage collected! This is probably the case for the other loaders in three.js - should therefore avoid until this issue is fixed
+
 -----------------
 
 # other changes
