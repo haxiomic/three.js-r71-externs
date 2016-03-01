@@ -61,6 +61,8 @@ The follow issues have been corrected in this repository but not in the typescri
 
 - Object3D id should be read-only
 
+- PixelType is redundant, only TextureDataType is used. PixelType needs removal from Typescript
+
 -----------------
 
 # Haxe Issues
