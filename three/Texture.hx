@@ -1,7 +1,7 @@
 package three;
 
 @:native("THREE.Texture") extern class Texture implements ITexture{
-	function new(image:haxe.extern.EitherType<js.html.ImageElement, haxe.extern.EitherType<js.html.CanvasElement, js.html.VideoElement>>, ?mapping:Mapping, ?wrapS:Wrapping, ?wrapT:Wrapping, ?magFilter:TextureFilter, ?minFilter:TextureFilter, ?format:PixelFormat, ?type:TextureDataType, ?anisotropy:Float):Void;
+	function new(?image:haxe.extern.EitherType<js.html.ImageElement, haxe.extern.EitherType<js.html.CanvasElement, js.html.VideoElement>>, ?mapping:Mapping, ?wrapS:Wrapping, ?wrapT:Wrapping, ?magFilter:TextureFilter, ?minFilter:TextureFilter, ?format:PixelFormat, ?type:TextureDataType, ?anisotropy:Float):Void;
 	var id : Float;
 	var uuid : String;
 	var name : String;

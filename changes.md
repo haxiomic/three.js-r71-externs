@@ -63,6 +63,8 @@ The follow issues have been corrected in this repository but not in the typescri
 
 - PixelType is redundant, only TextureDataType is used. PixelType needs removal from Typescript
 
+- Texture first param should be optional
+
 -----------------
 
 # Haxe Issues
