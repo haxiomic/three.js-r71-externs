@@ -1,6 +1,6 @@
 package three;
 
-@:native("THREE.CurvePath") extern class CurvePath<T:(Vector)> extends Curve<T> {
+@:native("THREE.CurvePath") extern class CurvePath<T:(Vector<Dynamic>)> extends Curve<T> {
 	function new():Void;
 	var curves : Array<Curve<T>>;
 	var bends : Array<Path>;

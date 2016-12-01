@@ -1,6 +1,6 @@
 package three;
 
-@:native("THREE.Curve") extern class Curve<T:(Vector)> {
+@:native("THREE.Curve") extern class Curve<T:(Vector<Dynamic>)> {
 	function getPoint(t:Float):T;
 	function getPointAt(u:Float):T;
 	function getPoints(?divisions:Float):Array<T>;

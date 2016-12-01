@@ -16,6 +16,6 @@ package three;
 	function fromArray(xyzo:Array<Dynamic>):Euler;
 	function toArray(?array:Array<Float>, ?offset:Float):Array<Float>;
 	function toVector3(?optionalResult:Vector3):Vector3;
-	var onChange : Void -> Void;
+	var onChange : (Void->Void) -> Void;
 	function clone():Euler;
 }

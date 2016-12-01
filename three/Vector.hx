@@ -1,34 +1,24 @@
 package three;
 
-@:native("THREE.Vector") extern typedef Vector = {
+@:native("THREE.Vector") extern typedef Vector<T> = {
 	function setComponent(index:Float, value:Float):Void;
 	function getComponent(index:Float):Float;
-	@:optional
-	function copy(v:Vector):Vector;
-	@:optional
-	function add(v:Vector):Vector;
-	@:optional
-	function addVectors(a:Vector, b:Vector):Vector;
-	@:optional
-	function sub(v:Vector):Vector;
-	@:optional
-	function subVectors(a:Vector, b:Vector):Vector;
-	function multiplyScalar(s:Float):Vector;
-	function divideScalar(s:Float):Vector;
-	function negate():Vector;
-	@:optional
-	function dot(v:Vector):Float;
+	function copy(v:T):T;
+	function add(v:T):T;
+	function addVectors(a:T, b:T):T;
+	function sub(v:T):T;
+	function subVectors(a:T, b:T):T;
+	function multiplyScalar(s:Float):T;
+	function divideScalar(s:Float):T;
+	function negate():T;
+	function dot(v:T):Float;
 	function lengthSq():Float;
 	function length():Float;
-	function normalize():Vector;
-	@:optional
-	function distanceTo(v:Vector):Float;
-	@:optional
-	function distanceToSquared(v:Vector):Float;
-	function setLength(l:Float):Vector;
-	@:optional
-	function lerp(v:Vector, alpha:Float):Vector;
-	@:optional
-	function equals(v:Vector):Bool;
-	function clone():Vector;
+	function normalize():T;
+	function distanceTo(v:T):Float;
+	function distanceToSquared(v:T):Float;
+	function setLength(l:Float):T;
+	function lerp(v:T, alpha:Float):T;
+	function equals(v:T):Bool;
+	function clone():T;
 };
